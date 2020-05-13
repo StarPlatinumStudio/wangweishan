@@ -1,37 +1,99 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/StarPlatinumStudio/wangweishan/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 联系方式
 
-### Markdown
+- 手机/微信号：18250156433
+- Email：robinwang501@gmail.com 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# 个人信息
 
-```markdown
-Syntax highlighted code block
+ - 王维山/男/1998 
+ - 本科/福建工程学院软件工程专业 
+ - 工作年限：应届，已实习半年
+ - 技术博客：https://me.csdn.net/qq_35815527
+ - Github：https://github.com/StarPlatinumStudio
 
-# Header 1
-## Header 2
-### Header 3
+ - 期望职位：实时数据开发工程师，大数据开发工程师
+ - 期望薪资：税前月薪15k~25k，特别喜欢的公司可例外
+ - 期望城市：不限
 
-- Bulleted
-- List
+# 工作经历
 
-1. Numbered
-2. List
+## 福建星网锐捷通讯股份有限公司 （ 2019年7月 ~ 至今 ）
 
-**Bold** and _Italic_ and `Code` text
+### Flink运维监控平台项目 
 
-[Link](url) and ![Image](src)
-```
+我在此项目负责架构设计、前端开发、Java后端开发、Flink任务编写，是公司Flink项目第一人。
+在这个项目中，我最困难的问题是原先使用JQuery开发前端效率不高，我采取了保留设计思路和接口，使用Vue+TypeScript重构建前端工程的措施，最后开发效率和前端应用使用体验都大幅提升。
+在这个项目中，我最自豪的技术细节是使用微服务思想开发事件驱动型应用，因为事件驱动型应用的本质与微服务相似，使用配置中心实现流计算规则动态更新、使用Kafka代替Socket传输数据、RESTful API接收数据汇（Data Sink），
+实施前Kafka动态更新规则占用消息队列集群、Socket数据传输机制同步且耦合、Flink数据汇直接落地缺乏实时性，和实施后配置中心专用配置规则轻量完成任务、Kafka提供异步非阻塞的传输机制使得上下游应用解耦且彼此隔离，使用Java后端将数据存储在内存并且实时计算报警，目前已经上线使用，满足运维报警低时延的需求，方便了开发同事掌控自己项目线上状态，推动自动化运维。同事和主管都十分满意认可。
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 基于Flink SQL Client 的实时排行榜
 
-### Jekyll Themes
+我在此项目负责架构设计、前端开发、Java后端开发、Flink Client SQL编写和Flink引擎配置与部署。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StarPlatinumStudio/wangweishan/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+在这个项目中，我最困难的问题是Flink SQL Client太新了，参考资料少，我凭借对Flink Table&SQL API的深入理解和丰富的项目经验解决了众多无资料可考的难题，如JDBC连接器的配置，最终无需一行代码使用SQL和配置完成了项目指标。
 
-### Support or Contact
+在这个项目中，我最自豪的技术细节是使用阿里Blink的开窗函数实现TopN Rank，使用子查询的方法获取聚合结果的其他行字段，最终按照计划处理数据写入数据库，并且将时延控制在3秒以内。
+后端同事原有的方案有Redis数据丢失无法恢复、MySQL负荷过高的难题，Flink引擎基于状态的设计可以用检查点应对突发事故，流批一体的设计理念聚合流数据解决了MySQL的负荷问题，大数据项目组对该解决方案十分满意。
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 企业微信开发 
+
+我在此项目负责开发公司企业微信，根据文档编写OATH2.0登录，这个项目中，我最自豪的技术细节是利用SpringBoot的注解快速开发项目，使用Cookie记住微信登录状态，使用Cookie可以跳过OATH2.0登录，免去页面跳转的时间。
+
+
+
+##   福建维锐尔信息科技有限公司（ 2019年2月 ~ 2019年5月 ）
+
+### 代达罗-启动器项目
+
+我在此项目负责使用CefSharp在C#用户控件中嵌入Chrome浏览器，在C/S架构项目中编写前端页面交互实现控制下载、更新、本机文件管理。
+负责服务器客户端的更新、下载、电子锁模块的设计和代码编写，超额完成了前端页面下载的动画表现，这个项目中，我最困难的问题是没有前端项目的经验，我通过自学和请教同事，最后掌握了前端基础和进阶的技术。
+
+
+
+## 古栖的诉说：大学生创新创业项目
+
+和海南大学的团队合作，沟通业务需求技术可行性，打造语音交互智能助手、机器学习村落推荐、谷歌卫星导航地图三大功能。项目在多项赛事上获得多项奖项，得到省旅游局支持，团队被《中国青年报》报道。
+
+在这个项目中，我最自豪的技术细节是清洗Excle文件使用逻辑回归二分类算法训练出模型，并且编写了B/S服务在线解析使用机器学习模型，为创新创业团队提供了强有力的技术保障。
+
+# 开源项目和作品
+
+## 开源项目
+
+  - [基于Flink的关键字过滤预警系统](https://github.com/StarPlatinumStudio/FlinkAlarmOpsSys)：探索Flink项目早期的思路和架构,目前已经全部重构
+
+  - [Flink-SQL-实战](https://github.com/StarPlatinumStudio/Flink-SQL-Practice)：个人技术专栏:《Flink SQL原理和实战 实战篇》的源码
+
+    
+
+## 技术文章
+
+- [Flink SQL原理和实战 实战篇-3：Tabel API & SQL 注册Tabel Source](https://blog.csdn.net/qq_35815527/article/details/103866923)
+
+- [Center OS安装Docker Engine(翻译文章)](https://blog.csdn.net/qq_35815527/article/details/103759654) 
+
+    
+
+# 技能清单
+
+- 主力编程语言：JavaScript/Java/TypeScript
+- 掌握的编程语言：C++/Python/C#
+- 前端框架：Vue.js/Bootstrap/JQuery
+- 后端框架：SpringBoot/ASP .Net Core
+- 操作系统：CentOS 7.6
+- 服务器：Nignx/IIS
+- 流处理引擎：Flink
+- 中间件：Kafka/Nacos
+- 数据库相关：MySQL/Redis
+- 版本管理、文档和自动化部署工具：Svn/Git
+- 云和开放平台：阿里云/百度语音/微信应用开发/谷歌云平台/AZURE
+      
+
+---
+
+# 致谢
+
+感谢您花时间阅读我的简历，期待能有机会和您共事。
+      
